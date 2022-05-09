@@ -1,0 +1,31 @@
+package Spring_First_Code.Spring_Example;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+@SuppressWarnings("deprecation")
+public class App {
+	public static void main(String[] args) {
+//		Resource res = new ClassPathResource("spring.cfg.xml");
+//		BeanFactory bf = new XmlBeanFactory(res);
+		ApplicationContext ap=new ClassPathXmlApplicationContext("spring.cfg.xml");
+//		Bike cbr = ap.getBean(CBR.class);
+//
+//		cbr.nameComapny();
+//		cbr.cC();
+//		cbr.maxSpeed();
+//		
+//
+//		System.out.println();
+//		Bike r15 = ap.getBean(R15.class);
+//
+//		r15.nameComapny();
+//		r15.cC();
+//		r15.maxSpeed();
+
+	}
+}

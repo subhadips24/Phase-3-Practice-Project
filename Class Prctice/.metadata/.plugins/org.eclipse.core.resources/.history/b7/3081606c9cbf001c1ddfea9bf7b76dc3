@@ -1,0 +1,15 @@
+package spring.Coffe.Code;
+
+public class Capachino implements CoffeMachine {
+
+	public void testeOfCoffe() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void costOfCoffe() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

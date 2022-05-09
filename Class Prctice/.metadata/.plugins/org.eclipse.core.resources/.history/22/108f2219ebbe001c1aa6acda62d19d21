@@ -1,0 +1,22 @@
+package Spring_First_Code.Spring_Example;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Resource res=new ClassPathResource("spring.cfg.xml");
+    	BeanFactory bf=new XmlBeanFactory(res);
+    	Bike cbr=bf.getBean(CBR.class);
+    	
+    	cbr.nameComapny();
+    	cbr.cC();
+    	cbr.maxSpeed();
+    
+    	
+    }
+}

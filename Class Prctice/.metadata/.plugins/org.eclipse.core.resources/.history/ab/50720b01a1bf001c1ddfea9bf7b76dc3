@@ -1,0 +1,26 @@
+package spring.Coffe.Code;
+
+import java.util.Scanner;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	
+    			Scanner sc = new Scanner(System.in);
+    			ApplicationContext ap=new ClassPathXmlApplicationContext("coffe.cfg.xml");
+    			int choise1=sc.nextInt();
+    			while(true) {
+    					System.out.println("Press 1 for Capachino..");
+    					System.out.println("&&");
+    					System.out.println("Press 2 for Xpressso....");
+    			}
+    }
+}

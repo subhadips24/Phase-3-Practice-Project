@@ -1,0 +1,27 @@
+package com.spring.jdbc;
+
+import java.util.List;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.spring.Bean.StudentBean;
+
+public class StudentDAO implements StudentCRUD {
+		JdbcTemplate temp;
+		
+	public void setTemp(JdbcTemplate temp) {
+			this.temp = temp;
+		}
+
+	public int insert(StudentBean sb) {
+		
+		return 0;
+	}
+
+	public List<StudentBean> getStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+			
+			
+}

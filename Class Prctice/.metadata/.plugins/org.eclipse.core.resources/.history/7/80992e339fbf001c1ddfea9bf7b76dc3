@@ -1,0 +1,15 @@
+package spring.Coffe.Code;
+
+public class Capachino implements CoffeMachine {
+
+	public void testeOfCoffe() {
+		
+		
+	}
+
+	public void costOfCoffe() {
+		
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package Spring_First_Code.Spring_Example;
+
+public class CBR  implements Bike{
+
+	@Override
+	public void nameComapny() {
+		// TODO Auto-generated method stub
+		System.out.println("HONDA...");
+	}
+
+	@Override
+	public void cC() {
+		// TODO Auto-generated method stub
+		System.out.println("220 cc bike");
+	}
+
+	@Override
+	public void maxSpeed() {
+		// TODO Auto-generated method stub
+		System.out.println("250 km/hr");
+	}
+		
+			
+}

@@ -1,0 +1,12 @@
+package spring.Anotation.Test;
+
+public class Snippet {
+	public static void main(String[] args) {
+		/Spring_Anotation_Test/pom.xml
+		/Spring-Example/src/main/java/Spring_First_Code/Spring_Example/App.java
+		/Spring-Example/src/main/java/Spring_First_Code/Spring_Example/Bike.java
+		/Spring-Example/src/main/java/Spring_First_Code/Spring_Example/CBR.java
+		/Spring-Example/src/main/java/Spring_First_Code/Spring_Example/R15.java
+	}
+}
+

@@ -1,0 +1,24 @@
+package spring.Coffe.Code;
+
+public class Xpresso implements CoffeMachine {
+	private String  Cream;
+	
+	public String getCream() {
+		return Cream;
+	}
+
+	public void setCream(String cream) {
+		Cream = cream;
+	}
+
+	public void testeOfCoffe() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void costOfCoffe() {
+		// TODO Auto-generated method stub
+		
+	}
+		
+}

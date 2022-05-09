@@ -1,0 +1,13 @@
+package Spring_First_Code.Spring_Example;
+
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Resource res=new ClassPathResource("spring.cfg.xml");
+    	
+    }
+}

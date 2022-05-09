@@ -1,0 +1,10 @@
+package Spring_First_Code.Spring_Example;
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	
+    }
+}

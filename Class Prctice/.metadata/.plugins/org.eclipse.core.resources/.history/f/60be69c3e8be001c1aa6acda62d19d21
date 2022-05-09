@@ -1,0 +1,23 @@
+package Spring_First_Code.Spring_Example;
+
+public class R15  implements Bike{
+
+	@Override
+	public void nameComapny() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void cC() {
+		// TODO Auto-generated method stub
+		System.out.println("250 cc bike");
+	}
+
+	@Override
+	public void maxSpeed() {
+		// TODO Auto-generated method stub
+		
+	}
+		
+}

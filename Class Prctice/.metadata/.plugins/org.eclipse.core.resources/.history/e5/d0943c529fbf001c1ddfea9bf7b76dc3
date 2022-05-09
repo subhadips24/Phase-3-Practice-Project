@@ -1,0 +1,24 @@
+package spring.Coffe.Code;
+
+public class Capachino implements CoffeMachine {
+private String  Cream;
+	
+	public String getCream() {
+		return Cream;
+	}
+
+	public void setCream(String cream) {
+		Cream = cream;
+	}
+
+	public void testeOfCoffe() {
+		
+		
+	}
+
+	public void costOfCoffe() {
+		
+		
+	}
+
+}

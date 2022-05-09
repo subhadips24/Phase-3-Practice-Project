@@ -1,0 +1,9 @@
+package com.spring.jdbc;
+
+import com.spring.Bean.StudentBean;
+
+public interface StudentCRUD {
+		
+	
+			public int insert(StudentBean sb);
+}
